@@ -1,0 +1,11 @@
+{
+    "manifest_version" : 3,
+    "name" : "Medium Sort Posts",
+    "version" : "1.0.0",
+    "description" : "An extension to sort/filter medium posts by amount of claps, read minutes, date etc",
+    "permissions" : ["activeTab", "storage"],
+    "action" : {
+        "default_popup" : "./popup/popup.html"
+    }
+    
+}
